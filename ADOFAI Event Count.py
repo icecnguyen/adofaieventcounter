@@ -20,7 +20,6 @@ try:
                     else:
                         event_counts[event_type] = 1
         print(f"Total Events: {total_events}")
-        print("Event Counts:")
         for event_type, count in event_counts.items():
             print(f"{event_type}: {count}")
 except FileNotFoundError:
